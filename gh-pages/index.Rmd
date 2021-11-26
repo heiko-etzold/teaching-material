@@ -1,0 +1,14 @@
+---
+title: "Lehrmaterial"
+author: "Dr. Heiko Etzold, Universität Potsdam"
+output:
+  html_document: default
+---
+
+## Akademische Grundkompetenzen
+
+* [Lineare Regression / Methode der kleinsten Quadrate](linReg/linReg.html)
+
+
+
+
