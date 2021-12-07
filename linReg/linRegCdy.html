@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <title>linReg.cdy</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #CSConsole {
+            background-color: #FAFAFA;
+            border-top: 1px solid #333333;
+            bottom: 0px;
+            height: 200px;
+            overflow-y: scroll;
+            position: fixed;
+            width: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cindyjs.org/dist/v0.8/CindyJS.css">
+    <script type="text/javascript" src="https://cindyjs.org/dist/v0.8/Cindy.js"></script>
+<script id="csdraw" type="text/x-cindyscript">
+//Berechnung der besten Gerade
+pts=allpoints();
+M=apply(pts,(1,#.x));
+Y=apply(pts,#.y);
+L=transpose(M)*M;
+R=transpose(M)*Y;
+Linv = inverse(L);
+v=Linv*R;
+f(x):=v_1+v_2*x;
+plot(f(x));
+
+//Berechnung des Bestimmtheitsmaßes
+n=length(pts);
+ybar = sum(pts,#.y)/n;
+sqe=sum(pts,(f(#.x)-ybar)^2);
+sqt=sum(pts,(#.y-ybar)^2);
+r2 = sqe/sqt;
+err(r2);
+
+
+//Darstellung der Quadrate
+sq(x,y1,y2):=(
+   d=y2-y1;
+   p=((x,y1),(x,y2),(x+d,y2),(x+d,y1),(x,y1));
+   fillpoly(p,color->(1,0.5,0.5),alpha->0.4);
+   connect(p,color->(.8,0,0));
+);
+
+forall(pts,sq(#.x,#.y,(f(#.x))));
+
+;
+</script>
+    <script type="text/javascript">
+var cdy = CindyJS({
+  scripts: "cs*",
+  defaultAppearance: {
+    dimDependent: 0.7,
+    fontFamily: "sans-serif",
+    lineSize: 1,
+    pointSize: 5.0,
+    textsize: 12.0
+  },
+  angleUnit: "°",
+  geometry: [
+    {name: "A", type: "Free", pos: [1.12, 2.88, 4.0], color: [1.0, 0.0, 0.0], labeled: true},
+    {name: "B", type: "Free", pos: [-2.6440677966101696, -4.0, -1.6949152542372883], color: [1.0, 0.0, 0.0], labeled: true},
+    {name: "C", type: "Free", pos: [4.0, 4.0, 1.0416666666666667], color: [1.0, 0.0, 0.0], labeled: true},
+    {name: "D", type: "Free", pos: [4.0, 3.175757575757576, 0.6060606060606061], color: [1.0, 0.0, 0.0], labeled: true},
+    {name: "E", type: "Free", pos: [4.0, 1.9585062240663897, 0.41493775933609955], color: [1.0, 0.0, 0.0], labeled: true}
+  ],
+  ports: [{
+    id: "CSCanvas",
+    width: 536,
+    height: 363,
+    transform: [{visibleRect: [-4.02, 11.34, 17.42, -3.18]}],
+    axes: true,
+    background: "rgb(168,176,192)"
+  }],
+  csconsole: false,
+  cinderella: {build: 2036, version: [3, 0, 2036]}
+});
+    </script>
+</head>
+<body>
+    <div id="CSCanvas"></div>
+</body>
+</html>

@@ -3,7 +3,8 @@ title: "Beste Gerade"
 author: "Dr. Heiko Etzold, Universität Potsdam"
 date: "25.11.2021"
 output:
-  html_document: default
+  html_document: 
+    highlight: tango
 ---
 
 **CC-BY-SA**. Dieses Material steht unter der Creative-Commons-Lizenz »Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)« -- siehe https://creativecommons.org/licenses/by-sa/4.0/deed.de
@@ -61,9 +62,48 @@ Mit $\mathbf{M}:= \left(\begin{matrix}1 & x_1 \\ \vdots & \vdots\\ 1 & x_n \end{
 
 $$\mathbf{M}^T\mathbf{M}\left(\begin{matrix}a  \\ b \end{matrix}\right) = \mathbf{M}^T\mathbf{y}$$
 
-Wenn man jetzt noch die inverse Matrix zu $\mathbf{M}^T\mathbf{M}$ findet (was nicht so schwer ist, da $\mathbf{M}\mathbf{M}\in\mathbb{R}^{2\times 2}$ ist), dann kann man damit von links multiplizieren und erhält:
+Wenn man jetzt noch die inverse Matrix zu $\mathbf{M}^T\mathbf{M}$ findet (was nicht so schwer ist, da $\mathbf{M}^T\mathbf{M}\in\mathbb{R}^{2\times 2}$ ist), dann kann man damit von links multiplizieren und erhält:
 
 $$\left(\begin{matrix}a  \\ b \end{matrix}\right) = (\mathbf{M}^T\mathbf{M})^{-1}\mathbf{M}^T\mathbf{y}$$
 Dies ist also eine direkte Berechnungsvorschrift, um $a$ und $b$ und damit die Gerade $y = a+bx$ zu erhalten, wenn die Koordinaten der Punkte über $x_i$ und $y_i$ gegeben sind.
 
 
+
+## Programmieren hilft
+
+Die Bestimmung der Geraden lässt sich nun über einen Algorithmus am Computer schnell umsetzen. Dies soll am Beispiel der Scriptsprache *Cindyscript* in dem Programm [Cinderella](https://cinderella.de) erfolgen. Sie können auch die zugehörige [Cinderella-Datei](linReg.cdy) nutzen.
+
+```{#numCode .numberLines}
+pts=allpoints();
+M=apply(pts,(1,#.x));
+Y=apply(pts,#.y);
+L=transpose(M)*M;
+R=transpose(M)*Y;
+Linv=inverse(L);
+v=Linv*R;
+f(x):=v_1+v_2*x;
+plot(f(x));
+```
+
+
+
+
+In Zeile `1` werden zunächst alle Punkte aufgerufen, die in  Cinderella, einem dynamischen Geometriesystem, dargestellt sind. `pts` ist damit eine Liste von Punkten mit den Koordinaten `x` und `y`.
+
+Zeile `2` und `3` erzeugen die Matrizen $\mathbf{M}$ und $\mathbf{y}$, Zeilen `4` und `5` die links und rechts vom Gleichheitszeichen stehenden Matrizen $\mathbf{M}^T\mathbf{M}$ und $\mathbf{M}^T\mathbf{y}$, die für das Lösen des Gleichungssystems nötig sind. In Zeile `6` wird noch die Inverse von $\mathbf{M}^T\mathbf{M}$ bestimmt.  
+
+In Zeile `7` wird nun der Lösungsvektor $\left(\begin{matrix}a  \\ b \end{matrix}\right)$ berechnet, hier unter der Variable `v` abgespeichert. In Zeile `8` werden die Einträge aus `v` genutzt, um die lineare Funktion zu definieren, wobei `v_1` für $a$ und `v_2` für $b$ steht. Zeile `9` zeichnet die Funktion.
+
+
+
+### Nun geht sogar noch mehr!
+
+Das ganze lässt sich nun auch noch beliebig erweitern: Möchte man statt einer linearen Funktion $y = a+bx$ eine quadratische haben, also $y = a+bx+cx^2$, kann man die Matrix $\mathbf{M}$ entsprechend anpassen zu $\mathbf{M}:= \left(\begin{matrix}1 & x_1 & x_1^2 \\ \vdots & \vdots & \vdots \\ 1 & x_n & x_n^2 \end{matrix}\right)$ und sucht dann die Lösung des Gleichungssystems $\mathbf{M}^T\mathbf{M}\left(\begin{matrix}a  \\ b \\ c \end{matrix}\right) = \mathbf{M}^T\mathbf{y}$ . Der Rest der Rechnung bleibt gleich, nur dass $\mathbf{M}^T\mathbf{M}$ nun in $\mathbb{R}^{3\times 3}$ liegt, was aber für die Bestimmung der Inversen nicht problematisch ist.
+
+Im Algorithmus müssen dann nur zwei Zeilen angepasst werden: Zeile `2` wird zu `M=apply(pts,(1,#.x,(#.x)^2));` und Zeile `8` entsprechend zu `f(x):=v_1+v_2*x+v_3*x^2`. Auch weitere Funktionenklassen können einfach drauf addiert werden. 
+
+```{r Vergleich, echo=FALSE, fig.cap="Vergleich der Näherungen über $y = a+bx$, $y = a+bx+cx^2$ und $y = a+bx+cx^2+d\\sin(x)$", fig.align='center', out.width='100%'}
+knitr::include_graphics("figLinRegVergleich.png")
+```
+
+Letztlich ergibt dies zwar eine immer bessere Näherung an die gegebenen Punkte, aber es muss stets kritisch hinterfragt werden, ob die Näherung wirklich sinnvoll ist. Welches Modell vermutet wird, ist vielmehr in der dahinter liegenden Theorie zu suchen -- und für kaum ein  Zusammenhang ließe sich eine Annäherung über $y = a+bx+cx^2+d\sin(x)$ theoretisch rechtfertigen …
