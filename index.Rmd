@@ -10,5 +10,7 @@ output:
 * [Lineare Regression / Methode der kleinsten Quadrate](linReg/linReg.html)
 
 
+## Präsentationen
 
+* [Bildung in der Digitalen Welt -- Algorithmisches Denken und Aufgabengestaltung im fächerübergreifenden Unterricht](praesis/2022-02-08-Etzold-AlgorithmenAufgaben.pdf)
 
