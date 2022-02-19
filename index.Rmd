@@ -9,6 +9,9 @@ output:
 
 * [Lineare Regression / Methode der kleinsten Quadrate](linReg/linReg.html)
 
+## Stoffdidaktik Mathematik
+
+* [Vorlesungsskript Wintersemester 2021/22](https://stoffdidaktik.heiko-etzold.de)
 
 ## Präsentationen
 
