@@ -17,3 +17,6 @@ output:
 
 * [Bildung in der Digitalen Welt -- Algorithmisches Denken und Aufgabengestaltung im fächerübergreifenden Unterricht](praesis/2022-02-08-Etzold-AlgorithmenAufgaben.pdf)
 
+* [Grundvorstellungen und Tätigkeitstheorie -- (Wie) passt das zusammen?](praesis/2022-09-01-Etzold-TaetigkeitstheorieGrundvorstellung.pdf)
+
+
