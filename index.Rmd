@@ -19,4 +19,5 @@ output:
 
 * [Grundvorstellungen und Tätigkeitstheorie -- (Wie) passt das zusammen?](praesis/2022-09-01-Etzold-TaetigkeitstheorieGrundvorstellung.pdf)
 
+* [Begriffsbildung zum Winkelfeld](praesis/2022-12-08-Etzold-Winkel.pdf)
 
