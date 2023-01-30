@@ -11,13 +11,15 @@ output:
 
 ## Stoffdidaktik Mathematik
 
-* [Vorlesungsskript Wintersemester 2021/22](https://stoffdidaktik.heiko-etzold.de)
+* [Vorlesungsskript Wintersemester 2021/22](https://stoffdidaktik.heiko-etzold.de/2021)
+
+* [Vorlesungsskript Wintersemester 2022/23](https://stoffdidaktik.heiko-etzold.de)
 
 ## Präsentationen
 
-* [Bildung in der Digitalen Welt -- Algorithmisches Denken und Aufgabengestaltung im fächerübergreifenden Unterricht](praesis/2022-02-08-Etzold-AlgorithmenAufgaben.pdf)
+* 08.02.2022: [Bildung in der Digitalen Welt -- Algorithmisches Denken und Aufgabengestaltung im fächerübergreifenden Unterricht](praesis/2022-02-08-Etzold-AlgorithmenAufgaben.pdf)
 
-* [Grundvorstellungen und Tätigkeitstheorie -- (Wie) passt das zusammen?](praesis/2022-09-01-Etzold-TaetigkeitstheorieGrundvorstellung.pdf)
+* 01.09.2022: [Grundvorstellungen und Tätigkeitstheorie -- (Wie) passt das zusammen?](praesis/2022-09-01-Etzold-TaetigkeitstheorieGrundvorstellung.pdf)
 
-* [Begriffsbildung zum Winkelfeld](praesis/2022-12-08-Etzold-Winkel.pdf)
+* 08.12.2022: [Begriffsbildung zum Winkelfeld](praesis/2022-12-08-Etzold-Winkel.pdf)
 
