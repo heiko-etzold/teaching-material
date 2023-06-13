@@ -23,4 +23,4 @@ output:
 
 * 08.12.2022: [Begriffsbildung zum Winkelfeld](praesis/2022-12-08-Etzold-Winkel.pdf)
 
-* 12.06.2023: [Spielen, Falten, Experimentieren -- Wie soll das helfen, Mathematik zu verstehen?](praesis/2023-06-12-Etzold-SpielenFaltenExperimentieren)
+* 12.06.2023: [Spielen, Falten, Experimentieren -- Wie soll das helfen, Mathematik zu verstehen?](praesis/2023-06-12-Etzold-SpielenFaltenExperimentieren.pdf)
