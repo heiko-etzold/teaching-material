@@ -1,5 +1,5 @@
 ---
-title: "Lehrmaterial"
+title: "Lehr- und Vortragsmaterial"
 author: "Dr. Heiko Etzold, Universität Potsdam"
 output:
   html_document: default
@@ -13,14 +13,19 @@ output:
 
 * [Vorlesungsskript Wintersemester 2021/22](https://stoffdidaktik.heiko-etzold.de/2021)
 
-* [Vorlesungsskript Wintersemester 2022/23](https://stoffdidaktik.heiko-etzold.de)
+* [Vorlesungsskript Wintersemester 2022/23](https://stoffdidaktik.heiko-etzold.de/2022)
+
+* [Vorlesungsskript Wintersemester 2023/24](https://stoffdidaktik.heiko-etzold.de)
 
 ## Präsentationen
 
 * 08.02.2022: [Bildung in der Digitalen Welt -- Algorithmisches Denken und Aufgabengestaltung im fächerübergreifenden Unterricht](praesis/2022-02-08-Etzold-AlgorithmenAufgaben.pdf)
 
-* 01.09.2022: [Grundvorstellungen und Tätigkeitstheorie -- (Wie) passt das zusammen?](praesis/2022-09-01-Etzold-TaetigkeitstheorieGrundvorstellung.pdf)
+* 01.09.2022: [Grundvorstellungen und Tätigkeitstheorie -- (Wie) passt das zusammen?](praesis/2022-09-01-Etzold-TaetigkeitstheorieGrundvorstellung.pdf) -- Vortrag zur GDM-Jahrestagung in Frankfurt/Main
 
-* 08.12.2022: [Begriffsbildung zum Winkelfeld](praesis/2022-12-08-Etzold-Winkel.pdf)
+* 08.12.2022: [Begriffsbildung zum Winkelfeld](praesis/2022-12-08-Etzold-Winkel.pdf) -- Gastvortrag an der TU Chemnitz im Rahmen der Lehrveranstaltung „Didaktik der Geometrie für die Grundschule“
 
-* 12.06.2023: [Spielen, Falten, Experimentieren -- Wie soll das helfen, Mathematik zu verstehen?](praesis/2023-06-12-Etzold-SpielenFaltenExperimentieren.pdf)
+* 12.06.2023: [Spielen, Falten, Experimentieren -- Wie soll das helfen, Mathematik zu verstehen?](praesis/2023-06-12-Etzold-SpielenFaltenExperimentieren.pdf) -- Vortrag im Rahmen des Eröffnungskolloquiums der Wanderausstellung „Mathematik zum Anfassen“ des Mathematikums Gießen am 12.06.2023 an der B-TU Cottbus
+
+* 08.03.2024: [Lernmodelle zum Lösen von Gleichungen -- Eine Analyse und Weiterentwicklung aus tätigkeitstheoretischer Perspektive](praesis/2024-03-08-Etzold-Lernmodelle.pdf) -- Vortrag zur GDM-Jahrestagung in Essen
+
