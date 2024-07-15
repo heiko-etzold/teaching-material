@@ -29,3 +29,5 @@ output:
 
 * 08.03.2024: [Lernmodelle zum Lösen von Gleichungen -- Eine Analyse und Weiterentwicklung aus tätigkeitstheoretischer Perspektive](praesis/2024-03-08-Etzold-Lernmodelle.pdf) -- Vortrag zur GDM-Jahrestagung in Essen
 
+* 15.07.2024: [Tätigkeitstheorie als Mittel zum Zweck](praesis/2024-07-15-Etzold-Taetigkeitstheorie.pdf) -- Vortrag im Rahmen des mathematikdidaktischen Kolloquiums an der Universität Duisburg-Essen
+
