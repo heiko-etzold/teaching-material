@@ -31,3 +31,6 @@ output:
 
 * 15.07.2024: [Tätigkeitstheorie als Mittel zum Zweck](praesis/2024-07-15-Etzold-Taetigkeitstheorie.pdf) -- Vortrag im Rahmen des mathematikdidaktischen Kolloquiums an der Universität Duisburg-Essen
 
+* 18.07.2024: [Spiele im Mathematikunterricht](praesis/2024-07-18-Etzold-Spiele.pdf) -- Workshop im Rahmen des 11. Fachtages für Mathematik des Landes Brandenburg in Luckenwalde
+
+
