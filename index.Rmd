@@ -9,13 +9,21 @@ output:
 
 * [Lineare Regression / Methode der kleinsten Quadrate](linReg/linReg.html)
 
+## Schulbuchgestaltung in Forschung und Schulpraxis
+
+* [Dokumentation der Lehrveranstaltung](schulbuch/dokumentation.html)
+
+
 ## Stoffdidaktik Mathematik
 
 * [Vorlesungsskript Wintersemester 2021/22](https://stoffdidaktik.heiko-etzold.de/2021)
 
 * [Vorlesungsskript Wintersemester 2022/23](https://stoffdidaktik.heiko-etzold.de/2022)
 
-* [Vorlesungsskript Wintersemester 2023/24](https://stoffdidaktik.heiko-etzold.de)
+* [Vorlesungsskript Wintersemester 2023/24](https://stoffdidaktik.heiko-etzold.de/2023)
+
+* [Vorlesungsskript Wintersemester 2024/25](https://stoffdidaktik.heiko-etzold.de)
+
 
 ## Präsentationen
 

@@ -1,0 +1,37 @@
+---
+title: "Schulbuchgestaltung in Forschung und Praxis"
+author: "Dr. Heiko Etzold, Universität Potsdam"
+date: "`r format(Sys.time(), '%d.%m.%Y')`"
+output:
+  html_document: 
+    highlight: tango
+---
+
+**CC-BY-SA**. Dieses Material steht unter der Creative-Commons-Lizenz »Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)« -- siehe https://creativecommons.org/licenses/by-sa/4.0/deed.de
+
+## Einblick in die Breite der Schulbuchforschung
+
+Die folgenden Artikel sollen einen ersten Einblick geben, wie mit und über Mathematikschulbücher geforscht werden kann. Die Artikel entstammen den *Beiträgen zum Mathematikunterricht*. Dabei handelt es sich um den Konferenzband der jährlich stattfindenden Tagung der Gesellschaft für Didaktik der Mathematik, auf der sehr viele deutschsprachige Mathematikdidaktikerinnen und -didaktiker ihre Forschung vorstellen. Die Beiträge selbst durchlaufen dabei *keinen* Begutachtungsprozess, sollten daher für Forschungsarbeiten vorwiegend *nur* als Anregung herangezogen werden.
+
+* Besser, M., Richard, A., Linneweber-Lammerskitten, H., & Leiss, D. (2014). Texte lesen und verstehen, Lösungswege diskutieren: Das Schulbuch als zentrales Element mathematischen Kommunizierens? In J. Roth & J. Ames (Hrsg.), *Beiträge zum Mathematikunterricht 2014* (S. 169–172). WTM. https://doi.org/10.17877/DE290R-13711
+
+* Böcherer-Linder, K. (2024). Sprachliche Formulierung von bedingten Wahrscheinlichkeiten. In P. Ebers, F. Rösken, B. Barzel, F. Schacht, & P. Scherer (Hrsg.), *Beiträge zum Mathematikunterricht 2024. 57. Jahrestagung der Gesellschaft für Didaktik der Mathematik* (S. 415–418). WTM. https://doi.org/10.17877/DE290R-25082
+
+* Fischer, F., Sievert, H., & Heinze, A. (2024). Kriterienkataloge zur Auswahl von Schulbüchern für den Mathematikunterricht. In P. Ebers, F. Rösken, B. Barzel, F. Schacht, & P. Scherer (Hrsg.), *Beiträge zum Mathematikunterricht 2024. 57. Jahrestagung der Gesellschaft für Didaktik der Mathematik* (S. 777–780). WTM. https://doi.org/10.17877/DE290R-24750
+
+* Kaganova, E. (2016). Was lehren Schulbuchlehrtexte im Fach Mathematik? In Institut für Mathematik und Informatik Heidelberg (Hrsg.), *Beiträge zum Mathematikunterricht 2016*. WTM. https://doi.org/10.17877/DE290R-17458
+
+* Niederquell, J., & Kempen, L. (2024). „Wird das auch noch bewiesen?“ – Inhaltsbezogene Einblicke in das Aufgabenangebot von Schulbüchern zum mathematischen Argumentieren. In P. Ebers, F. Rösken, B. Barzel, F. Schacht, & P. Scherer (Hrsg.), *Beiträge zum Mathematikunterricht 2024. 57. Jahrestagung der Gesellschaft für Didaktik der Mathematik* (S. 489–492). WTM. https://doi.org/10.17877/DE290R-25094
+
+* Obersteiner, A., Heck Ribeiras, P., & Wittman, G. (2024). Bieten Schulbücher Anlässe für Conceptual Change beim Lernen von Brüchen? In P. Ebers, F. Rösken, B. Barzel, F. Schacht, & P. Scherer (Hrsg.), *Beiträge zum Mathematikunterricht 2024. 57. Jahrestagung der Gesellschaft für Didaktik der Mathematik* (S. 145–148). WTM. https://doi.org/10.17877/DE290R-25004
+
+* Postupa, J. (2024). Abbildungen im Mathematikschulbuch—Thesen zu deren Gestaltung und Veränderung. In P. Ebers, F. Rösken, B. Barzel, F. Schacht, & P. Scherer (Hrsg.), *Beiträge zum Mathematikunterricht 2024. 57. Jahrestagung der Gesellschaft für Didaktik der Mathematik* (S. 1213–1216). WTM. https://doi.org/10.17877/DE290R-24818
+
+* Rezat, S. (2014). Lehrerhandbücher als Instrumente der Unterrichtsplanung in der Sekundarstufe – Eine Fallstudie. In J. Roth & J. Ames (Hrsg.), *Beiträge zum Mathematikunterricht 2014* (S. 971–974). https://doi.org/10.17877/DE290R-1005
+
+* Schwarzmeier, S., Kober, A., & Obersteiner, A. (2024). Visualisierungen von Brüchen in Schulbüchern: Kontinuierlich, diskretisiert oder diskret? In P. Ebers, F. Rösken, B. Barzel, F. Schacht, & P. Scherer (Hrsg.), *Beiträge zum Mathematikunterricht 2024. 57. Jahrestagung der Gesellschaft für Didaktik der Mathematik* (S. 1321–1324). WTM. https://doi.org/10.17877/DE290R-24929
+
+* Strässer, R. (2008). Das Mathematikbuch als Instrument des Lehrens. *Beiträge zum Mathematikunterricht 2008, 42. Jahrestagung der Gesellschaft für Didaktik der Mathematik vom 13.3. bis 18.3.2008 in Budapest*. WTM. https://doi.org/10.17877/DE290R-13279
+
+
+
